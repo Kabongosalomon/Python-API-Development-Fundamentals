@@ -1,0 +1,8 @@
+PG_MODE=primary
+PG_PRIMARY_USER=postgres
+PG_PRIMARY_PASSWORD=kabongo
+PG_DATABASE=salomon
+PG_USER=salomon
+PG_PASSWORD=kabongo
+PG_ROOT_PASSWORD=kabongo
+PG_PRIMARY_PORT=5432
