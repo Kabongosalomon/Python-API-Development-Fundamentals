@@ -19,6 +19,8 @@ class User(db.Model):
 
     recipes = db.relationship('Recipe', backref='user')
 
+    # bio = db.Column(db.String(200))
+
     @classmethod
     def get_by_username(cls, username):
         return cls.query.filter_by(username=username).first()
